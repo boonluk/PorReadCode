@@ -37,6 +37,7 @@ public class RegisterFragment extends Fragment{
             public void onClick(View view) {
                 getActivity().getSupportFragmentManager().popBackStack();
             }
+
         });
 
 
