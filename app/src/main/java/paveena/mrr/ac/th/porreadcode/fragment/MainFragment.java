@@ -35,10 +35,29 @@ public class MainFragment extends Fragment{
         registerConyroller();
 
 //        Login Controller
-        loginController();
+//        loginController();
+
+        test();
 
 
     }   // Main  Method
+
+    private void test() {
+
+        String[] logingStrings = new String[]{"20", "por", "porpor", "1234"};
+
+        Button button = getView().findViewById(R.id.btnLogin);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Toast.makeText(getActivity(), "");
+
+
+            }
+        });
+
+    }
 
     private void loginController() {
         Button button = getView().findViewById(R.id.btnLogin);
